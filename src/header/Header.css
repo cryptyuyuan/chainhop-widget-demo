@@ -1,0 +1,143 @@
+.swapheader {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-top: 15px;
+  margin-right: 14px;
+  
+}
+
+.headLeft {
+  display: flex;
+  align-items: center;
+}
+.heardlink {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000000;
+  cursor: pointer;
+  margin-left: 35px;
+}
+.heardlink:hover {
+  color: #d4a24e;
+}
+
+.extra {
+  position: "absolute";
+  margin-right: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.themeIcon {
+  box-sizing: border-box;
+}
+
+.headerChainItemBg {
+  background:rgba(228, 180, 98, 0.16);
+  border-radius: 12px;
+  margin-right: 10px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.triangleUp{
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-bottom: 5px solid  #e4b462;
+  position: relative;
+  top: -2px;
+  left: 3px;
+}
+.triangleDown{
+  width: 0;
+  height: 0;
+  border: 5px solid transparent;
+  border-top: 5px solid #e4b462;
+  position: relative;
+  top: 3px;
+  left: 3px;
+}
+
+.moreChainBtn,
+.moreChainBtn:focus,
+.moreChainBtn:hover {
+  font-weight: bold;
+  color: #d4a24e;
+  padding: 4px 8px 4px 8px;
+  font-size: 700;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: none;
+}
+
+.chainIcon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.chainName {
+  color: #e4b462;
+  margin-left: 5px;
+}
+
+.headerItemBg {
+  background: rgba(228, 180, 98, 0.16);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  height: 52px;
+}
+
+.ant-typography {
+  width: 130px;
+  color: #e4b462;
+}
+
+.headerItemBga{
+  background: rgba(228, 180, 98, 0.16);
+  border-radius: 12px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.ant-typography {
+  width: 90px;
+  color:#e4b462;
+}
+
+.addressBtn,
+.addressBtn:focus,
+.addressBtn:hover {
+  width: 115px;
+  font-weight: bold;
+  color: #000000;
+  margin-right: 15px;
+  padding: 4px 8px 4px 8px;
+  background: none;
+}
+
+.connectWalletBtn {
+  background: #e4b462 !important;
+  font-weight: 600 !important;
+  color: #000000 !important;
+  font-size: 14px !important;
+  border-radius: 12px !important;
+  margin-right: 14px;
+  height: 52px !important;
+}
+.connectWalletBtn:focus {
+  background: #e4b462 !important;
+}
+.connectWalletBtn:hover {
+  background: #f7cb7e !important;
+}
